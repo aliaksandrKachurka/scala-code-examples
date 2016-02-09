@@ -4,14 +4,19 @@ package progscala2.introscala.shapes
   * Created by Aliaksandr_Kachurka on 2/8/2016.
   */
 object Messages {
+
   object Exit
+
   object Finished
+
   case class Response(message: String)
+
 }
 
 import akka.actor.Actor
 
 class ShapesDrawingActor extends Actor {
+
   import progscala2.introscala.shapes.Messages._
 
   def receive = {
