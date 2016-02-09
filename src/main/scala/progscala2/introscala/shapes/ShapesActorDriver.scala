@@ -30,7 +30,6 @@ class ShapesDrawingDriver(drawerActor: ActorRef) extends Actor {
       drawerActor ! Exit
     case Finished =>
       println(s"ShapesDrawingDriver: cleaning up...")
-      // context.system.shutdown() is deprecated
       context.system.terminate()
     case response: Response =>
       println(s"ShapesDrawingDriver: Response = $response")
