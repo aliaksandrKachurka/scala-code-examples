@@ -1,8 +1,5 @@
 package progscala2.introscala.shapes
 
-/**
-  * Created by Aliaksandr_Kachurka on 2/8/2016.
-  */
 object Messages {
 
   object Exit

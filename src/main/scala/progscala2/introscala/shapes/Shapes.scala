@@ -1,8 +1,5 @@
 package progscala2.introscala.shapes
 
-/**
-  * Created by Aliaksandr_Kachurka on 2/8/2016.
-  */
 case class Point(x: Double = 0.0, y: Double = 0.0)
 
 abstract class Shape() {

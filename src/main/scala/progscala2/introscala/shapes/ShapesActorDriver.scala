@@ -3,9 +3,6 @@ package progscala2.introscala.shapes
 import akka.actor.{Actor, ActorRef, ActorSystem, Props}
 import com.typesafe.config.ConfigFactory
 
-/**
-  * Created by Aliaksandr_Kachurka on 2/9/2016.
-  */
 private object Start
 
 object ShapesDrawingDriver {
