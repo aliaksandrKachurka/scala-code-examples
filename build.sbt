@@ -4,4 +4,7 @@ version := "1.0"
 
 scalaVersion := "2.11.7"
 
-libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.4.1"
+libraryDependencies ++= Seq(
+  "com.typesafe.akka" %% "akka-actor" % "2.4.1",
+  "org.scala-lang" % "scala-parser-combinators" % "2.11.0-M4"
+)
