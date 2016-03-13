@@ -1,0 +1,6 @@
+val states = Set("Alabama", "Alaska", "Wyoming")
+val lengths = states map (_.length)
+
+val states2 = states + "Virginia"
+
+val states3 = states2 +("New York", "Illinois")
